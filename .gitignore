@@ -33,12 +33,9 @@ bower_components
 build/Release
 
 # Dependency directories
-react-multiples/node_modules
-react-parcel/node_modules
-react-parcel-route/node_modules
-react-single/node_modules
-single-spa/node_modules
-node_modules/
+*.node_modules/
+*.yarn/
+*.yarnrc.yml
 jspm_packages/
 
 # TypeScript v1 declaration files
